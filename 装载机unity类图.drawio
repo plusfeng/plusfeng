@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T07:06:47.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="8zHbfDVSiN1JPL14SPkw" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T07:40:10.783Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="lai1oYICQBLW0Fxf0CYN" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1419" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1632" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -95,7 +95,7 @@
           <mxGeometry y="138" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="uOz8T9xEKH1gFjkwk_M--120" value="Mechnism(Abstract)" style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=16;fontFamily=Times New Roman;labelBorderColor=none;glass=0;fillColor=#A4CAFC;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="630" y="170" width="240" height="390" as="geometry">
+          <mxGeometry x="630" y="170" width="240" height="380" as="geometry">
             <mxRectangle x="630" y="170" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -141,8 +141,8 @@
         <mxCell id="uOz8T9xEKH1gFjkwk_M--134" value="+Initialize:初始化方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--120">
           <mxGeometry y="328" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uOz8T9xEKH1gFjkwk_M--135" value="*OnDrive:速度驱动并判断有效，同时传动（Abstract）" style="text;strokeColor=none;fillColor=none;align=right;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--120">
-          <mxGeometry y="354" width="240" height="36" as="geometry" />
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--135" value="*OnDrive:速度驱动并判断有（Abstract）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--120">
+          <mxGeometry y="354" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="uOz8T9xEKH1gFjkwk_M--137" value="Transmission" style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=16;fontFamily=Times New Roman;labelBorderColor=none;glass=0;fillColor=#A4CAFC;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="920" y="156" width="240" height="280" as="geometry">
@@ -182,7 +182,7 @@
         <mxCell id="uOz8T9xEKH1gFjkwk_M--152" value="*OnDrive:速度驱动并判断有效，同时传动" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--137">
           <mxGeometry y="250" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uOz8T9xEKH1gFjkwk_M--161" value="RockerMechaism(Abstract)" style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=16;fontFamily=Times New Roman;labelBorderColor=none;glass=0;fillColor=#A4CAFC;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--161" value="RockerMechanism(Abstract)" style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=16;fontFamily=Times New Roman;labelBorderColor=none;glass=0;fillColor=#A4CAFC;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="920" y="470" width="240" height="140" as="geometry">
             <mxRectangle x="630" y="170" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -231,8 +231,167 @@
         <mxCell id="uOz8T9xEKH1gFjkwk_M--192" value="方法" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--183">
           <mxGeometry y="172" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uOz8T9xEKH1gFjkwk_M--194" value="&lt;div&gt;*OnDrive:速度驱动并判断是否有效&lt;/div&gt;&lt;div&gt;以Up方向为轴，摇杆看向关节&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--183">
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--194" value="&lt;div&gt;*OnDrive:速度驱动摇杆并判断是否有效&lt;/div&gt;&lt;div&gt;作用：以Up方向为轴，旋转摇杆看向关节&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--183">
           <mxGeometry y="198" width="240" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--195" value="LinkRockerMechanism(Abstract)" style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=16;fontFamily=Times New Roman;labelBorderColor=none;glass=0;fillColor=#A4CAFC;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1190" y="156" width="240" height="228" as="geometry">
+            <mxRectangle x="630" y="170" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--196" value="字段" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--195">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--197" value="+rockers：存放RockerMechanism类型列表" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--195">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--199" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=0;labelBorderColor=none;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--195">
+          <mxGeometry y="78" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--200" value="属性" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--195">
+          <mxGeometry y="86" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--201" value="+IsStuck：是否卡住" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--195">
+          <mxGeometry y="112" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--202" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=0;labelBorderColor=none;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--195">
+          <mxGeometry y="138" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--203" value="方法" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--195">
+          <mxGeometry y="146" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--204" value="&lt;div&gt;*CheckRockerStuck:检查每个摇杆是否卡住&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--195">
+          <mxGeometry y="172" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--205" value="*DriverRockers:速度驱动摇杆运动并判读" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--195">
+          <mxGeometry y="200" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--206" value="CrankMechanism(Abstract)" style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=16;fontFamily=Times New Roman;labelBorderColor=none;glass=0;fillColor=#A4CAFC;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1200" y="470" width="240" height="140" as="geometry">
+            <mxRectangle x="630" y="170" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--207" value="属性" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--206">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--208" value="+Angle:曲柄旋转角度，初始值为0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--206">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--209" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=0;labelBorderColor=none;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--206">
+          <mxGeometry y="78" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--210" value="方法" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--206">
+          <mxGeometry y="86" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--211" value="+Initialize:初始化曲柄机构，并赋值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--206">
+          <mxGeometry y="112" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--212" value="FreeCrank" style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=16;fontFamily=Times New Roman;labelBorderColor=none;glass=0;fillColor=#A4CAFC;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1200" y="630" width="240" height="120" as="geometry">
+            <mxRectangle x="630" y="170" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--220" value="方法" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--212">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--221" value="*OnDrive：速度驱动曲柄旋转并判断，同时驱动摇杆运动" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--212">
+          <mxGeometry y="52" width="240" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--222" value="*RotateCrank：速度驱动旋转曲绕Z轴运动" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--212">
+          <mxGeometry y="94" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--223" value="LimitCrank" style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=16;fontFamily=Times New Roman;labelBorderColor=none;glass=0;fillColor=#A4CAFC;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1200" y="775" width="240" height="228" as="geometry">
+            <mxRectangle x="630" y="170" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--224" value="字段" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--223">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--225" value="+range：曲柄旋转的角度范围" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--223">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--227" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=0;labelBorderColor=none;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--223">
+          <mxGeometry y="78" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--228" value="属性" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--223">
+          <mxGeometry y="86" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--229" value="+IsStuck：判断曲柄是否卡住" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--223">
+          <mxGeometry y="112" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--230" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=0;labelBorderColor=none;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--223">
+          <mxGeometry y="138" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--231" value="方法" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--223">
+          <mxGeometry y="146" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--232" value="*CheckAngleStuck:判断曲柄角度是否超限" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--223">
+          <mxGeometry y="172" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--233" value="*RotateCrank：驱动曲柄在角度范围内旋转" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--223">
+          <mxGeometry y="200" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--234" value="SliderMechanism(Abstract)" style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=16;fontFamily=Times New Roman;labelBorderColor=none;glass=0;fillColor=#A4CAFC;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="170" width="240" height="280" as="geometry">
+            <mxRectangle x="630" y="170" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--235" value="字段" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--234">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--236" value="+stroke:滑动行程" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--234">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--239" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=0;labelBorderColor=none;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--234">
+          <mxGeometry y="78" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--240" value="属性" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--234">
+          <mxGeometry y="86" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--241" value="+Displacement:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--234">
+          <mxGeometry y="112" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--246" value="+IsStuck：滑动机构是否卡住" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--234">
+          <mxGeometry y="138" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--247" value="+StartPosition：滑动的初始位置" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--234">
+          <mxGeometry y="164" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--248" value="+State:滑动状态变量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--234">
+          <mxGeometry y="190" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--242" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=0;labelBorderColor=none;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--234">
+          <mxGeometry y="216" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--243" value="方法" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--234">
+          <mxGeometry y="224" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--245" value="+Initialize：初始化滑动机构，赋初值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--234">
+          <mxGeometry y="250" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--249" value="Slider" style="swimlane;fontStyle=1;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=16;fontFamily=Times New Roman;labelBorderColor=none;glass=0;fillColor=#A4CAFC;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="480" width="240" height="172" as="geometry">
+            <mxRectangle x="630" y="170" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--253" value="属性" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--249">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--254" value="+Aixs:滑动方向，滑动机构运动方向" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--249">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--258" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=0;labelBorderColor=none;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--249">
+          <mxGeometry y="78" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--259" value="方法" style="text;strokeColor=none;fillColor=#D1E4FC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=14;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--249">
+          <mxGeometry y="86" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--261" value="*OnDrive：速度驱动滑动机构并判断" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--249">
+          <mxGeometry y="112" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uOz8T9xEKH1gFjkwk_M--260" value="*MoveSlider：计算滑动机构的下一个位置" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontSize=12;fontFamily=Times New Roman;fontStyle=1;" vertex="1" parent="uOz8T9xEKH1gFjkwk_M--249">
+          <mxGeometry y="142" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
